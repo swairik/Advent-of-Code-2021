@@ -34,15 +34,6 @@ void usaco(string filename) {
 	freopen((filename + ".out").c_str(), "w", stdout);
 }
 
-// bool comp(pair<int,int> &a, pair<int,int> &b) {
-//     if(a.first != b.first)    return a.first > b.first;
-//     return a.first < a.second;
-// }
-
-// bool pow2(int x) {
-//     return x && (!(x&(x-1)));
-// }
-
 #define int ll
 
 void solve() {
